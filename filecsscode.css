@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'irsans';
+    src: url(/fonts/irsans.ttf);
+}
+
+body{font-family: irsans;
+    background-color: rgb(65, 0, 245);
+    color: aliceblue;
+}
+
+
+.pp{width: 70%;
+    height: 30rem;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 0px 0px 1rem rgb(0, 0, 0) ;
+    border-radius: 1rem;
+    margin: 65px auto 0px;
+}
+
+.titl{text-align: center;
+padding: 5px;}
+
+
+.forme{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    margin: 10px;
+
+}
+
+.btn{padding: 7px;
+font-size: 18px;
+font-family: irsans;
+background-color: white;
+border-radius: 8px;
+border: none;}
+
+.btn:hover{color:rgb(65, 0, 245) ;
+background-color: rgb(0, 0, 0);}
+
+
+
+.vorod{font-size: 20px;
+border-radius: 10px 0px;
+border: none;}
+
+
+.help{text-align: center;}
+
+
+.last{margin-top: 60px;
+    padding: 0 29px;
+
+}
